@@ -14,3 +14,5 @@ function PhysicsTeacher(teacherName,mainSubject) {
 
 const physicsTeacher = new PhysicsTeacher("Scott","Physics");
 console.log (physicsTeacher);
+console.log (physicsTeacher.teacherName);//parent construction function property
+console.log (physicsTeacher.mainSubject);//child construction function property 
