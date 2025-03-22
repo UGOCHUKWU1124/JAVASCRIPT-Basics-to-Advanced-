@@ -6,6 +6,7 @@ const products = [
 ]; 
 //create a callback function
 //checks if the every price of product in the array is true given the condition if not it returns false
+//[].every (function (element) {return condition})
 console.log(products.every(
     (p) => {
         return p.price >= 1000;
